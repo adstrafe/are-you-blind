@@ -1,0 +1,11 @@
+{
+    "private": true,
+    "dependencies": {
+        "@calmdownval/mc-rcon": "1.0.0",
+        "@calmdownval/signal": "1.0.3"
+    },
+    "scripts": {
+        "build": "node script.js",
+        "watch": "pm2 start ecosystem.json"
+    }
+}
