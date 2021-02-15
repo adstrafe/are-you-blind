@@ -1,7 +1,8 @@
-.gradle
-.settings
 .classpath
+.gradle
 .project
-build
+.settings
+
 bin
+build
 node_modules
