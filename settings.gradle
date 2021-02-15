@@ -1,0 +1,2 @@
+rootProject.name = 'local.kurvodej.plugins'
+include('lib')
