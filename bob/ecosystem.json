@@ -1,9 +1,0 @@
-{
-    "apps": [
-        {
-            "name": "bob-plugins",
-            "script": "node script.js",
-            "watch": true
-        }
-    ]
-}
