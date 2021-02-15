@@ -5,6 +5,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 public final class PluginsPlugin extends JavaPlugin {
     @Override
     public void onEnable() {
-        getLogger().info("yeet");
+        new Events(this);
+        getLogger().info("YEET!");
     }
 }
