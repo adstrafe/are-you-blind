@@ -1,4 +1,4 @@
-name: Plugins
-main: local.kurvodej.plugins.PluginsPlugin
+name: AreYouBlind
+main: local.adstrafe.mc.AreYouBlindPlugin
 version: 1.0.0
 api-version: 1.16

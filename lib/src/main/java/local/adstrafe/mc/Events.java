@@ -1,4 +1,4 @@
-package local.kurvodej.plugins;
+package local.adstrafe.mc;
 
 import org.bukkit.Material;
 import org.bukkit.entity.Entity;
@@ -10,20 +10,17 @@ import org.bukkit.event.player.PlayerInteractEntityEvent;
 import org.bukkit.potion.PotionEffectType;
 import org.bukkit.potion.PotionEffect;
 
-
 public class Events implements Listener {
+	private final AreYouBlindPlugin plugin;
 
-	private final PluginsPlugin plugin;
-
-	public Events(PluginsPlugin plugin) {
+	public Events(AreYouBlindPlugin plugin) {
 		this.plugin = plugin;
 		plugin.getServer().getPluginManager().registerEvents(this, plugin);
 	}
 
 	@EventHandler
 	public void onPlayerInteract(PlayerInteractEntityEvent event) {
-
-		plugin.getLogger().info( "Invis yes" );
+		plugin.getLogger().info("Invis yes");
 
 		Player player = event.getPlayer();
 		Entity targetEntity = event.getRightClicked();
